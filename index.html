@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap" rel="stylesheet">
+    
+    <title>RockPaperScissors </title>
+</head>
+<body>
+    <header>
+        <h1>Rock | Paper | Scissors</h1>
+    </header>
+    <h2>Let's Play!</h2>
+
+    <div id="container">
+        <button onclick="playerChoice('rock')" class="button" id="Rock"><img src="photos/rockbutton.png"></button>
+        <button onclick="playerChoice('paper')" class="button" id="paper"><img src="photos/paperbutton.png"></button>
+        <button onclick="playerChoice ('scissors')" class="button" id="scissors"><img src="photos/scissorsbutton.png"></button>
+    </div>
+     <div class="grid-container">
+        <div class="item1" id="player"></div>
+        <div class="item2" id="cpu"><h2></h2></div>
+        <div class ="item3" id="result" ></div>
+        <div class="item4" id="win-count"></div>
+        <div class="item5" id="loss-count"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
