@@ -32,6 +32,7 @@ let loss = 0; //loss++
     determineWinner();
 
 }
+//chooses cpu's choice//
 
  function determineWinner () {
     if (userInput === compInput) {
@@ -50,9 +51,9 @@ let loss = 0; //loss++
         
     }
 
-
 updateStats();
 }
+// compares user choice vs cpu choice to determine winner//
 
 function updateStats() {
     player.textContent = `Player: ${userInput}`;
@@ -60,3 +61,4 @@ function updateStats() {
     document.getElementById("win-count").textContent = `Wins: ${win}`;
     document.getElementById("loss-count").textContent = `Losses: ${loss}`;
 }
+// displays the users choice and cpu choice and displays wins and loss count//

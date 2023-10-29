@@ -19,6 +19,10 @@ h1{
     border: 20px;
     border-radius: 5px;
 }
+.title-container {
+    display: flex;
+    align-items: center;
+}
 
 h2 {
     text-align: center;
@@ -31,18 +35,16 @@ h2 {
     display: grid;
    grid-template-columns: auto auto auto;
     justify-content: center;
-   
-    margin-top: 20px; 
+   margin-top: 20px; 
 }
 
-.button {
+ .button {
     
     border: none;
-    border-radius: 5px;
-    padding: 15px 30px; 
+    border-radius: 10px;
     margin: 0 10px 20px; 
     cursor: pointer;
-}
+} 
 
 
 img {
@@ -51,6 +53,7 @@ img {
     border-radius: 5px;
     display: block; 
     margin: 0 auto; 
+    border: none;
 }
 
 #player {
